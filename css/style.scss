@@ -1,0 +1,67 @@
+$background: #574440;
+
+//fonts
+h1, h2, p, li{
+    font-family: 'Proxima Nova';
+}
+header h1 {
+    color: #fff;
+    font-size: 2.5em;
+    font-weight: 300;
+    text-transform: uppercase;
+    line-height: 1.5;
+    padding: 0 20px;
+    width: 400px;
+    float:left;
+    
+    span {
+        font-weight: 900;
+    } 
+}
+
+header {
+   ul {
+       float: right;
+       
+       li {
+           float: left;
+           color: #fff;
+           margin-top: 22px;
+           padding: 0 20px;
+       }
+       
+       li.selected {
+           background: #fff;
+           margin-top: 17px;
+           margin-right:20px;
+           opacity: .80;
+       }
+   }
+}
+
+.selected {
+    color: $background;
+    padding: 5px;
+}
+
+//elements
+header {
+    background: $background;
+    height: 60px;
+}
+
+.hero {
+    height: 300px;
+    background-image: url("../images/wood-texture.png");
+}
+
+//positioning
+.container {
+    width: 980px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.clear {
+    clear: both;   
+}
